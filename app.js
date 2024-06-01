@@ -26,9 +26,18 @@ function changeNumber() {
     number.innerHTML = cardNumber[newNumber];
 }
 
-/* setInterval(function() {
+setInterval(function() {
     changeIcon();
     changeNumber();
-    }, 3000) */
+    }, 12000)
 
+window.addEventListener("load", function() {
+    changeIcon();
+    changeNumber();
+})
 
+// card sizes
+
+function changeCardSize() {
+    
+}

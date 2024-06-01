@@ -13,16 +13,19 @@
     <link rel="stylesheet"  src="styles.css" />
     <title>JB - Random Card Generator</title>
 </head>
-<body>
+<body class = bg-success>
     <div class="container">
-        <div class="card bg-primary-subtle mx-auto mt-4 d-flex rounded" style="width: 18rem; height: 24rem;">
-            <div class="card heart ps-4 bg-primary-subtle border-0 text-danger" style="height: 8rem; font-size: 60px">♥</div>
+        <div class="card bg-primary-subtle mx-auto mt-4 d-flex border-secondary rounded" style="width: 18rem; height: 24rem;"> <!-- Card Size 3:4 -->
+            <div class="card heart ps-3 bg-primary-subtle border-0 text-danger" style="height: 8rem; font-size: 60px">♥</div>
             <div class="card d-flex justify-content-center align-items-center bg-primary-subtle border-0" id="number" style="height:8rem; font-size: 60px">A</div>
-            <div class="card heart heart pe-4 d-flex justify-content-end align-items-end bg-primary-subtle border-0 text-danger" style="height: 8rem; font-size: 60px;">♥</div>
+            <div class="card heart heart pe-3 d-flex justify-content-end align-items-end bg-primary-subtle border-0 text-danger" style="height: 8rem; font-size: 60px;">♥</div>
         </div>
         <div class="d-flex justify-content-center mt-3">
             <button type="button mt-2" class="btn btn-danger" onclick="changeIcon(); changeNumber()">Feeling lucky?</button>
         </div>
     </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 </html>
